@@ -1,10 +1,7 @@
 from flask import Flask, render_template, redirect
-
 from data.jobs import Jobs
 from data.users import User
 from data import db_session
-
-import datetime
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
